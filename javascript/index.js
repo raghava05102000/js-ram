@@ -1,5 +1,6 @@
 var city = "Mysore"
-function display(name){
-    console.log(`${name} belongs to ${city}`)
-}
-display("Raghava")
+let email = "arya@gmail.com"
+const accountNumber = 123456789
+
+console.log([city, email, accountNumber])
+console.table([city, email, accountNumber])
