@@ -17,7 +17,7 @@
 // let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn)// true
 
-let randomNumber = 33
+let randomNumber = 55555
 let stringNumber = String(randomNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber) //string
