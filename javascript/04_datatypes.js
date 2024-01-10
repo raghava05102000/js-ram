@@ -25,5 +25,28 @@ const myFunction = function(){
     console.log("Hello Wolrd");
 }
 
-console.table([typeof(char), typeof(number), typeof(isBoolean), typeof(isNull), typeof(isUndefined), typeof(id), typeof(bigInt), typeof(person),typeof(heros), typeof(myFunction)])
+// console.table([typeof(char), typeof(number), typeof(isBoolean), typeof(isNull), typeof(isUndefined), typeof(id), typeof(bigInt), typeof(person),typeof(heros), typeof(myFunction)])
 
+
+
+// Stack Memory (Primitive)
+let myInstaName = "raghava_arya"
+
+let anotherName = myInstaName
+anotherName = "ragaava_arya007"
+
+console.log(myInstaName);
+console.log(anotherName);
+
+// Heap Memory (Non-primmitive)
+
+let userOne = {
+    email: "user@email.com",
+    moblie_no: 9191919191,
+    loc: 571314
+}
+
+let userTwo = userOne
+userTwo.email = "user123@email.com"
+console.log(userOne.email);
+console.log(userTwo.email);
